@@ -3,7 +3,10 @@ const urlsToCache = [
   '/',
   '/index.html',
   '/icon.png',
-  // Add more URLs to cache as needed
+  '/static/js/main.chunk.js',
+  '/static/js/0.chunk.js',
+  '/static/js/bundle.js',
+  '/static/css/main.chunk.css'
 ];
 
 self.addEventListener('install', event => {
